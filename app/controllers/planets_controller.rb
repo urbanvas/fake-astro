@@ -20,4 +20,5 @@ class PlanetsController < ApplicationController
 
     def destroy
     end
+
 end

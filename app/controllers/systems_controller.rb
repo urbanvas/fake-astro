@@ -20,4 +20,5 @@ class SystemsController < ApplicationController
 
     def destroy
     end
+
 end

@@ -1,0 +1,11 @@
+<h2>Show Page</h2>
+#Fix dis links
+<%= link_to "New Galaxy", new_user_galaxy_path(@user) %>
+<br>
+<%= link_to "New System", new_user_system_path(@user) %>
+<br>
+<%= link_to "New Planet", new_user_planet_path(@user) %>
+<br>
+
+<p>Name: <%= @user.username %><p>
+<p>Email: <%= @user.email %><p>
